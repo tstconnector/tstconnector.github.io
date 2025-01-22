@@ -8,7 +8,7 @@ import ContactPage from '@/pages/ContactPage'
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.NODE_ENV === 'production' ? '/tstconnector.github.io/' : '/'}>
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<HomePage />} />

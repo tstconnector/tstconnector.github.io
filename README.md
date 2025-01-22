@@ -7,7 +7,7 @@
    ```bash
    pnpm run deploy
    ```
-3. 部署完成后，访问 https://[你的GitHub用户名].github.io/tstconnector.github.io 查看网站
+3. 部署完成后，访问 https://tstconnector.github.io/tstconnector.github.io 查看网站
 
 ## 开发环境
 

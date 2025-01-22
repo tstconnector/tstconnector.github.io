@@ -4,6 +4,10 @@ on:
   push:
     branches: [ release ]
 
+# Add permissions configuration
+permissions:
+  contents: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest

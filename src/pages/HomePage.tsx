@@ -17,13 +17,13 @@ export default function HomePage() {
           <div className="flex space-x-4">
             <a
               href="/about"
-              className="bg-primary px-6 py-3 rounded-md font-medium hover:bg-primary-dark transition-colors"
+              className="text-xl flex items-center space-x-2 px-6 py-3 border border-white rounded-md font-medium hover:bg-white hover:text-gray-900 transition-colors"
             >
               Learn More
             </a>
             <a
               href="/contact"
-              className="flex items-center space-x-2 px-6 py-3 border border-white rounded-md font-medium hover:bg-white hover:text-gray-900 transition-colors"
+              className="text-xl flex items-center space-x-2 px-6 py-3 border border-white rounded-md font-medium hover:bg-white hover:text-gray-900 transition-colors"
             >
               <span>Contact Us</span>
               <ArrowRight className="h-5 w-5" />

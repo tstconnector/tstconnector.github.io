@@ -1,14 +1,14 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Layout from './layouts/Layout'
-import HomePage from './pages/HomePage'
-import AboutPage from './pages/AboutPage'
-import ProductsPage from './pages/ProductsPage'
-import NewsPage from './pages/NewsPage'
-import ContactPage from './pages/ContactPage'
+import Layout from '@/layouts/Layout'
+import HomePage from '@/pages/HomePage'
+import AboutPage from '@/pages/AboutPage'
+import ProductsPage from '@/pages/ProductsPage'
+import NewsPage from '@/pages/NewsPage'
+import ContactPage from '@/pages/ContactPage'
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.NODE_ENV === 'production' ? '/tstconnector.github.io/' : '/'}>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<HomePage />} />

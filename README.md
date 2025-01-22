@@ -1,6 +1,17 @@
-# React + TypeScript + Vite
+# tstconnector
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 部署到GitHub Pages
+
+1. 确保项目已推送到GitHub仓库
+2. 在项目根目录运行以下命令进行部署：
+   ```bash
+   pnpm run deploy
+   ```
+3. 部署完成后，访问 https://[你的GitHub用户名].github.io/tstconnector.github.io 查看网站
+
+## 开发环境
+
+本项目使用React + TypeScript + Vite构建，提供了基本的开发环境配置。
 
 Currently, two official plugins are available:
 

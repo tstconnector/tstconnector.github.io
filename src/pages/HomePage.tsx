@@ -1,8 +1,21 @@
 import { ArrowRight } from 'lucide-react'
+import { Helmet } from 'react-helmet'
 
 export default function HomePage() {
   return (
     <div className="space-y-16">
+      <Helmet>
+        <title>Connector Experts | High-Quality Industrial Connector Solutions</title>
+        <meta name="description" content="TST Connector provides advanced industrial connector solutions for global clients. Our high-performance materials and innovative technologies deliver reliable connection solutions for various industries." />
+        <meta name="keywords" content="industrial connectors, connector solutions, high-performance connectors, connector materials, connector technology" />
+        <meta property="og:title" content="Connector Experts | High-Quality Industrial Connector Solutions" />
+        <meta property="og:description" content="TST Connector provides advanced industrial connector solutions for global clients." />
+        
+        <meta name="description" lang="zh" content="TST Connector提供先进的工业连接器解决方案，服务于全球客户。我们的高性能材料和创新技术为各行业提供可靠的连接方案。" />
+        <meta name="keywords" lang="zh" content="工业连接器,连接器解决方案,高性能连接器,连接器材料,连接器技术" />
+        <meta property="og:title" lang="zh" content="连接器专家 | 高质量工业连接器解决方案" />
+        <meta property="og:description" lang="zh" content="TST Connector提供先进的工业连接器解决方案，服务于全球客户。" />
+      </Helmet>
       {/* Hero Section */}
       <section className="relative h-[600px] flex items-center">
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1519389950473-47ba0277781c')] bg-cover bg-center brightness-50"></div>

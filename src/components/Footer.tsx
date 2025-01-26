@@ -15,11 +15,11 @@ export default function Footer() {
           <div className="space-y-4">
             <h4 className="text-lg font-bold">Contact</h4>
             <div className="text-sm text-gray-300 space-y-2">
-              <p>Room 3006, Building 4, Rongchang Oriental Plaza</p>
+              <p>Building 4, Rongchang Oriental Plaza</p>
               <p>No. 229 Shuixian Avenue, Longwen District</p>
               <p>Zhangzhou, Fujian, China</p>
-              <p>Phone: +86 596 1234 5678</p>
-              <p>Email: info@tstconnector.com</p>
+              <p>Phone: +86 188 5058 9689</p>
+              <p>Email: vincy@tstconnector.com</p>
             </div>
           </div>
 
